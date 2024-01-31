@@ -1,0 +1,16 @@
+.board{
+    width: 640px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.white{
+    height: 80px;
+    width: 80px;
+    background-color: #f0d9b5;
+}
+.black{
+    height: 80px;
+    width: 80px;
+    background-color:#b58863;
+}
